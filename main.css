@@ -1,0 +1,98 @@
+body {
+   font-size: 70%;
+   font-family: Tahoma, Geneva, sans-serif;
+   background: url(plantbased.jpg);
+   margin: 0;
+   padding: 0;
+   position: absolute;
+}
+
+header {
+   background: rgba(255, 255, 255, 0.438);
+   height: 350px;
+   margin: 0 -8px;
+}
+.wrapper {
+   margin-top: -12px;
+} 
+
+h1 {
+   color: black;
+   font-family: fantasy;
+   font-size: 3.5em;
+   text-align: center;
+   padding-top: 25px;
+}
+
+h2 {
+   color: white;
+   font-size: 5em;
+   text-align: center;
+   padding-top: 30px;
+}
+
+img[alt="Logo Image"] {
+   margin-left: 30px;
+   margin-top: -37px;
+}
+
+img[alt="BBQ"] {
+   width: 600px;
+   height: 398px;
+   margin: 0 0 15px;
+}
+
+nav ul {
+   padding: 1em;
+   list-style: none;
+   text-align: right;
+}
+nav li {
+   display: inline-block;
+   margin: 0;
+}
+nav ol {
+   font-size: 2.5em;
+   text-align: left;
+   margin: 9.5px 370px;
+}
+nav li a, nav li a:visited {
+   text-decoration: none;
+   color: darkslategray;
+   padding: 0.3em 0.6em;
+}
+nav li a:hover {
+   color: rgb(191, 214, 203);
+   background-color: transparent;
+}
+
+p {
+   font-size: 3em;
+   color: darkseagreen;
+   text-align: center;
+   padding: 0 20px 40px 20px;
+}
+
+.section-one {
+   background-color: darkseagreen;
+   margin: 50px 400px;
+   text-align: center;
+}
+
+.section-two {
+   background-color: rgba(47, 79, 79, 0.863);
+   margin-top: 50px;
+   margin-left: 400px;
+   margin-right: 400px;
+}
+
+footer {
+   background-color: rgba(255, 255, 255, 0.438);
+   height: 25px;
+   font-size: 2em;
+   color: darkslategray;
+   text-align: right;
+   padding: 1.5em 2em;
+   margin: 0 -8px;
+}
+
